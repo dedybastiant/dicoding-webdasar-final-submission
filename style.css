@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+header {
+    width: 100%;
+}
+
+.header__nav {
+    width: 100%;
+    height: 8vh;
+}
+
+.header__hero,
+.header__nav {
+    padding: 0 10%;
+}
+
+.header__nav--links {
+    list-style: none;
+    float: right;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header__nav--links li {
+    align-items: center;
+    width: 25%;
+    text-align: center;
+
+}
+
+.header__nav--links a {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #006778;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.header__nav--links a:hover {
+    border-bottom: 3px solid #FFD124;
+}
+
+.header__hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    background-color: #037386;
+    height: 80vh;
+    color: white;
+    align-items: center;
+    gap: 3%
+}
+
+.header__hero--description, 
+.header__hero--image {
+    width: 100%;
+}
+
+.header__hero--description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__hero--description h1 {
+    font-size: 3.5rem;
+}
+
+.header__hero--description p {
+    font-size: 1.8rem;
+}
+
+.header__hero--image {
+    object-fit: contain;
+    height: 40%;
+}
+
+.product__section {
+    
+}
